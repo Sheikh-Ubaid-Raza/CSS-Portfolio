@@ -6,17 +6,17 @@ export default function Home() {
 
       <div id="header">
         <div className="container">
-          <nav>
+          <nav className="navbar">
             <Image src="/logo.png" alt="Logo" width={200} height={200} className="mylogo"></Image>
-            <ul id="sidemenu">
+            <ul className="nav-links">
               <li><a href="#header">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </nav>
-          <Image src="/myimg.jpg" alt="Profile-Pic" width={200} height={200} className="right-align"></Image>
+               </nav>
+          <Image src="/myimg.jpg" alt="Profile-Pic" width={300} height={300} className="profile-img"></Image>
           <div className="header-text">
             <p>Web Developer</p>
             <h1>Hy, I am <span>Ubaid Raza</span>,<br /> from Pakistan</h1>
@@ -64,7 +64,7 @@ export default function Home() {
               <a href="#">Learn more</a>
             </div>
             <div>
-              <Image src="/frontent-dev.jfif" alt="Frontend Development" width={100} height={75} className="icon"></Image>
+              <Image src="/images.png" alt="Frontend Development" width={100} height={75} className="icon"></Image>
               <h2>Frontend Development</h2>
               <p>Building fast, responsive, and interactive frontend experiences with expertise in JavaScript, TypeScript, and frameworks like Next.js and React.js.</p>
               <a href="#">Learn more</a>
@@ -130,7 +130,7 @@ export default function Home() {
                 <a href="https://www.linkedin.com/in/ubaid-raza-8764332b9/?trk=contact-info" target="_blank" className="botton">
                 Linkedin</a>
               </div>
-              <a href="/cv.pdf" download className="btn btn2">Dowload CV</a>
+              <a href="/cv.pdf" target="_blank" download className="btn btn2">Dowload CV</a>
             </div>
             <div className="contact-right">
               <form>
